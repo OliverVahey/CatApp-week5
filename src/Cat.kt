@@ -4,7 +4,7 @@ class Cat (val name: String, var age: Int, var weight: Int) {
     // Should check if the weight is 5 or more
     // There is a bug - don't resolve until instructed by the exercise.
     fun walk() :Boolean {
-        if(weight <= 5) {
+        if(weight >= 5) {
             weight--
             return true
         }
